@@ -1,4 +1,4 @@
-# Roxom DAO Simulator
+# Sovereign Valuation Simulator
 
 A Streamlit application that simulates a DAO revenue distribution system using the RLP-1 (Revenue Labor Protocol).
 
