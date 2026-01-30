@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.graph_objects as go
 
 # --- PAGE CONFIGURATION ---
-st.set_page_config(page_title="Roxom Purchasing Power Engine", layout="wide", page_icon="🛡️")
+st.set_page_config(page_title="Purchasing Power Engine", layout="wide", page_icon="🛡️")
 
 # --- CUSTOM CSS (Sovereign Aesthetic) ---
 st.markdown("""
@@ -153,7 +153,7 @@ with col_metrics:
     In Bitcoin, this lifestyle costs **99% less** than it did in 2015.
     """)
 
-# --- THE "ROXOM PITCH" SECTION ---
+# --- THE "BTC PITCH" SECTION ---
 st.markdown("### 🌉 Bridging the Parity Gap")
 c1, c2, c3 = st.columns(3)
 
@@ -163,7 +163,7 @@ with c1:
 
 with c2:
     st.markdown("#### 2. The Hedge")
-    st.write("Roxom allows you to hold the **Green Line** (Asset) while paying the **Red Line** (Liability) using the Basis Trade to manage the volatility.")
+    st.write("BTC allows you to hold the **Green Line** (Asset) while paying the **Red Line** (Liability) using the Basis Trade to manage the volatility.")
 
 with c3:
     st.markdown("#### 3. The Result")
