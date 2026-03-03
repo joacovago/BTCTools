@@ -74,7 +74,7 @@ net_yield = (final_btc - initial_deposit) / initial_deposit
 btc_price_drop = (df['BTC_USD'].iloc[-1] - df['BTC_USD'].iloc[0]) / df['BTC_USD'].iloc[0]
 
 # --- 5. THE DASHBOARD UI ---
-st.title("🛡️ The 'End of Dead Capital' Simulator")
+st.title("🛡️ The 'End of HODL' Simulator")
 st.markdown("### 📅 Market Replay: Oct 1, 2025 – Mar 3, 2026")
 
 # Top Metrics Row
