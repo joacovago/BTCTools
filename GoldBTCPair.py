@@ -74,7 +74,7 @@ net_yield = (final_btc - initial_deposit) / initial_deposit
 btc_price_drop = (df['BTC_USD'].iloc[-1] - df['BTC_USD'].iloc[0]) / df['BTC_USD'].iloc[0]
 
 # --- 5. THE DASHBOARD UI ---
-st.title("🛡️ The 'End of HODL' Simulator")
+st.title("🛡️ The 'Death of Just HODL' Simulator")
 st.markdown("### 📅 Market Replay: Oct 1, 2025 – Mar 3, 2026")
 
 # Top Metrics Row
@@ -124,7 +124,7 @@ st.plotly_chart(fig_usd, use_container_width=True)
 # --- 6. THE EXPLAINER ---
 st.success(f"""
 **The Math Behind the Magic:**
-1.  **Oct 1:** Bitcoin was **$114k**. Gold was **$4k**. Ratio: **28.5 oz** per BTC.
+1.  **Oct 1:** Bitcoin was $114k. Gold was $4k. Ratio: **28.5 oz** per BTC.
 2.  **The Crash:** Investors panicked, sold BTC (-41%), and bought Gold (+33%).
 3.  **The Result:** Gold became *more expensive* in BTC terms.
 4.  **Mar 3:** You swap your Gold back. It now buys **66.6 oz** per BTC.
